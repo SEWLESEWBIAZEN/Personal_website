@@ -1,38 +1,76 @@
-import React from 'react'
+import React from "react";
+import "./nav.css";
+
+/** font awesome imports */
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-success bg-body-primary">
-        <div class="container-fluid mx-auto">
-          <a class="navbar-brand " href="#">SB</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg bg-success bg-body-primary fixed-top">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#">
+            SB
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <FontAwesomeIcon icon={faBars} style={{color:"#f9ab00"}}/>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-sr-home"></i></a>
+          <div
+            className="collapse navbar-collapse m-auto "
+            id="navbarSupportedContent"
+          >
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#">
+                  Home
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  About Me
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
-              </li>            
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">Contact</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  My Portifolios
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  My Testimonials
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" aria-disabled="true">
+                  Contact Me
+                </a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-primary btn-warning" type="submit">Search</button>
-            </form>
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">
+                  Sign Up
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">
+                  Sign In
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </div>
-  )
-}
-export default NavBar
+  );
+};
+export default NavBar;
