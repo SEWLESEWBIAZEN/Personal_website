@@ -25,7 +25,7 @@ const NavBar = () => {
             <FontAwesomeIcon icon={faBars} style={{color:"#f9ab00"}}/>
           </button>
           <div
-            className="collapse navbar-collapse m-auto "
+            className="collapse navbar-collapse m-auto justify-content-center "
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">

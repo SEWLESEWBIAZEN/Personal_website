@@ -3,16 +3,21 @@ a,li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
     text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
 }
-li:hover{
-    border-bottom: 2px  #f9ab00 solid;
-    color: white;
+li>a:hover{
+    border-bottom: 2px  white solid;
+    color:white !important;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
 li>a:focus{
-    border-top: 5px  #f9ab00 solid;
-    border-radius: 7rem;  
+    border-top: 5px  white solid;
+    border-radius: 7rem;
+    color: white !important;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 
 }
 

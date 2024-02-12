@@ -3,7 +3,11 @@ import Stars from './Stars'
 
 const TestimonyText = () => {
   return (
-    <div>TestimonyText
+    <div className='container d-block m-auto text-center'>
+        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
+        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
+        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
+       
         <Stars/>
     </div>
   )
