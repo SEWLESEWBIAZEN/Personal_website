@@ -40,7 +40,7 @@ const Card = () => {
   
 ]
   return (
-    <div className=' container'>
+    <div className='container'>
         <CardItem cards={cards}/>
     </div>
   )

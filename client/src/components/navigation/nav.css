@@ -1,4 +1,8 @@
 
+nav{
+    opacity:90%;
+}
+
 a,li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;

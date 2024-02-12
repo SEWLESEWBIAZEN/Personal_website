@@ -11,16 +11,12 @@ import Next from "./testimonials/Next";
 
 const Index = () => {
   return (
-    <div className="pb-4">
+    <div className="pb-4 px-3">
       <Home />
       <hr />
       <Services />
       <hr className="text-success" />
-      <div className="d-xs-block d-sm-flex">
-        <Previous />
-        <Testimonials />
-        <Next />
-      </div>
+      <Testimonials />
     </div>
   );
 };

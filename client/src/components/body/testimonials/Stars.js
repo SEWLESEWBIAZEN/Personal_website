@@ -1,14 +1,15 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Stars = () => {
   return (
     <div>
-      {[...Array(5)].map((star) => {
+      {[...Array(5)].map(star => {
         return (
           <>
             <label>              
-              <FaStar size={25} />
+              <FontAwesomeIcon icon={faStar}/>
             </label>
           </>
         );

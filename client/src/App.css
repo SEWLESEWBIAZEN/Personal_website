@@ -2,7 +2,9 @@
 @import "~@flaticon/flaticon-uicons/css/all/all";
 .App {
   text-align: center;
-  background-color: silver;
+  background-color: silver; 
+  margin: auto ;
+  
 }
 
 .App-logo {
