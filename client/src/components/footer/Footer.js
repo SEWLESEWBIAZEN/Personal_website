@@ -1,11 +1,11 @@
 import React from 'react'
 import './footer.css'
+import Contact from './Contact-us'
 
 const Footer = () => {
   return (
     <div className='footer'>
-      footer is here
-
+    <Contact/>
     </div>
   )
 }
