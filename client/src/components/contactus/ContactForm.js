@@ -24,8 +24,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="my-2 mx-auto">
-      <h2 className='mx-auto'>Contact Me</h2>
+    <div className="my-2 mx-auto d-block">
+      <h2>Contact Me</h2>
       <form onSubmit={handleSubmit} className='form-control form-contact '>
         <div className="mb-3 d-block">
           <label htmlFor="name" className="form-label mb-0">Name</label>

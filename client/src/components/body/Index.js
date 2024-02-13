@@ -1,6 +1,4 @@
 import React from "react";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // local component import
 import Home from "./home/Index";

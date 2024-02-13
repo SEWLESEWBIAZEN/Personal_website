@@ -16,7 +16,7 @@ li>a:hover{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
-li>a:focus{
+li>.nav-link:focus{
     border-top: 5px  white solid;
     border-radius: 7rem;
     color: white !important;  

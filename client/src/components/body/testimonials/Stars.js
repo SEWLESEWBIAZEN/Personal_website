@@ -4,16 +4,17 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Stars = () => {
   return (
-    <div>
+    <div className="mt-4">
       {[...Array(5)].map(star => {
         return (
           <>
-            <label>              
-              <FontAwesomeIcon icon={faStar}/>
+            <label className="mx-1">              
+              <FontAwesomeIcon color="#f9ab00" icon={faStar}/>
             </label>
+
           </>
         );
-      })}
+      })}(5 of 5)
     </div>
   );
 };

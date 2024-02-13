@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import {Link} from 'react-router-dom'
 import "./nav.css";
 
 /** font awesome imports */
@@ -6,11 +7,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
+
+  //const [active,setActive]= useState("home");
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-success bg-body-primary fixed-top">
         <div class="container-fluid container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             SB
           </a>
           <button
@@ -30,29 +33,29 @@ const NavBar = () => {
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="./">
                   About Me
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="./">
                   My Portifolios
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="./">
                   My Testimonials
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact-me" aria-disabled="true">
+                <Link className="nav-link" to="contact-me" aria-disabled="true">
                   Contact Me
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
