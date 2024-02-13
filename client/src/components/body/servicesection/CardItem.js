@@ -10,7 +10,7 @@ const CardItem = ({ cards }) => {
             {cards.map((card,index) => (
                 <div key={index}  className='card container m-3 '>
                     <div className='card-image my-3'>
-                        <img maxWidth={400} maxHeight={250} className='img-fluid cimg' src={card.image} />
+                        <img maxWidth={350} maxHeight={200} className='img-fluid cimg' src={card.image} />
                         <p className='overlay-text'>
                             <ReactTyped
                             className='typed-text'

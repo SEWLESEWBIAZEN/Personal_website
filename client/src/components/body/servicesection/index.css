@@ -14,10 +14,10 @@
 }
 .overlay-text{
 position: absolute;
-  top: 5%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: green;
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }

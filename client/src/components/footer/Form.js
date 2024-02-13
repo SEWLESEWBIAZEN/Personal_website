@@ -2,11 +2,10 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <form>
-        <input type='text' placeholder='Type your name here..' name='name'/><br/>
-        <input type='email' placeholder='Type your email here' name='email'/><br/>
-        <input type='tel' placeholder='Type your phone here..' name='phone'/><br/>
-        <textarea cols={25} rows={3} type='multilinetext' placeholder='Type your question here...' name='question'/>
+    <form className='form-control form m-auto'>
+       <label className='text-black mt-3 form-group'> Phone Number:</label>
+       <input type='tel' className='form-input m-3' placeholder='Type your number and hit the button..' required></input> <br/>
+       <button type='submit' className='btn btn-success btn-outline-warning'> Subscribe</button>
     </form>
   )
 }

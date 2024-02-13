@@ -1,11 +1,13 @@
 import React from 'react'
 import CardItem from './CardItem'
 import img from '../home/programmer_profile.png'
+import Rimg from './React.jpg'
+import Mimg from './MaterialUI.jpg'
 
 const Card = () => {
   const cards=[
   {
-    image:img, 
+    image:Rimg, 
     description:" lorem Line 7:9:  img elements must have an alt prop,"+ 
     "either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text"+
     "src\components\body\servicesection\CardItem.js"+
@@ -16,7 +18,7 @@ const Card = () => {
     
   },
   {
-    image:img, 
+    image:Mimg, 
     description:" lorem Line 7:9:  img elements must have an alt prop,"+ 
     "either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text"+
     "src\components\body\servicesection\CardItem.js"+

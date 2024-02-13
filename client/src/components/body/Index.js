@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Home from "./home/Index";
 import Services from "./servicesection/Index";
 import Testimonials from "./testimonials/Index";
-import Previous from "./testimonials/Previous";
-import Next from "./testimonials/Next";
 
 const Index = () => {
   return (
