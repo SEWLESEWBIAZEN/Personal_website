@@ -32,3 +32,16 @@
     width: fit-content;
     margin-top: 2px !important;
 }
+.links-label{
+    margin-bottom: -1.2rem;
+}
+.facebook:hover,
+.instagram:hover,
+.twitter:hover,
+.github:hover,
+.linkedin:hover{
+    color: #f9ab00;
+    &:after{
+        content: "Facebook";
+    }
+}

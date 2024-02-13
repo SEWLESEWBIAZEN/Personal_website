@@ -4,8 +4,8 @@ import "./footer.css";
 
 const Links = () => {
   return (
-    <div className="d-block">
-      <h6 className="text-white mb-0">Links</h6>
+    <div className="d-block my-auto">
+      <h5 className="text-white links-label">Links</h5>      
       <div className="d-xs-block d-sm-flex flex-wrap link mx-auto mt-0">
       <Link to='./'>Home </Link>
       <Link to='./'>Portifolios</Link>
@@ -13,8 +13,7 @@ const Links = () => {
       <Link to='/contact-me'>Contact Me </Link>
       <Link to='./'>Testimonials</Link>
     </div>
-    </div>
-   
+    </div>   
   );
 };
 

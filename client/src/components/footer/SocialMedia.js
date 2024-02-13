@@ -16,19 +16,19 @@ const SocialMedia = () => {
     <div className="d-flex container link m-auto">
         <h6>Follow Me on :</h6>
       <a href="https://www.facebook.com">
-        <FontAwesomeIcon size="2x" icon={faFacebook} />
+        <FontAwesomeIcon className='facebook' size="2x" icon={faFacebook} />
       </a>
       <a href="https://www.instagram.com">
-        <FontAwesomeIcon size="2x" icon={faInstagram} />
+        <FontAwesomeIcon className='instagram' size="2x" icon={faInstagram} />
       </a>
       <a href="https://www.linkedin.com">
-        <FontAwesomeIcon size="2x" icon={faLinkedin} />
+        <FontAwesomeIcon className='linkedin' size="2x" icon={faLinkedin} />
       </a>
       <a href="https://www.github.com/SEWLESEWBIAZEN">
-        <FontAwesomeIcon size="2x" icon={faGithub} />
+        <FontAwesomeIcon className='github' size="2x" icon={faGithub} />
       </a>
       <a href="https://www.twitter.com">
-        <FontAwesomeIcon size="2x" icon={faTimes} />
+        <FontAwesomeIcon className="twitter" size="2x" icon={faTimes} />
       </a>
       
     </div>
