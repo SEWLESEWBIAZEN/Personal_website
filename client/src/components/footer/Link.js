@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Link = () => {
   return (
-    <div className="d-xs-block d-sm-flex link m-auto">
+    <div className="d-xs-block d-sm-flex flex-wrap link m-auto">
       <a>Home </a>
       <a>Portifolios</a>
       <a>About Me </a>
