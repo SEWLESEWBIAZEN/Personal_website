@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Link from "./Link";
+import Links from "./Links";
 import SocialMedia from "./SocialMedia";
 import Form from "./Form";
 import Skills from "./Skills";
@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="d-xs-block d-md-flex justify-content-evenly">
-        <Link/>
+        <Links/>
         <Form/>
       </div> 
      

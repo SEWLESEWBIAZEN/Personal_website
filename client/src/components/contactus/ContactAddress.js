@@ -14,7 +14,7 @@ const ContactAddress = () => {
       <div className="d-block  address-item mb-4">
         <div className="d-flex">
         <FontAwesomeIcon className='my-auto me-3'  size="2x" color="darkgreen" icon={faPhone} />
-        {/* Location icon */}
+       
         <h3 className="icon-text">Call Me</h3>
         </div>
         <p className="icon-value ms-4">
