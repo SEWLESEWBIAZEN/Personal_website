@@ -11,7 +11,7 @@ import "./contactus.css";
 const ContactAddress = () => {
   return (
     <div className="d-block my-auto">
-      <div className="d-block  mb-4">
+      <div className="d-block  address-item mb-4">
         <div className="d-flex">
         <FontAwesomeIcon className='my-auto me-3'  size="2x" color="darkgreen" icon={faPhone} />
         {/* Location icon */}
@@ -22,18 +22,18 @@ const ContactAddress = () => {
         </p>
       </div>
       <hr />
-      <div className="d-block  mb-4">
+      <div className="d-block address-item mb-4">
         <div className="d-flex">
         <FontAwesomeIcon className='my-auto me-3'  size="2x" color="darkgreen" icon={faMapMarkerAlt} />
         {/* Location icon */}
         <h3 className="icon-text">Location</h3>
         </div>
         <p className="icon-value ms-4">
-            Mesalemiya​, Kotebe, Yeka ,Addis Ababa, Ethiopia
+            Mesalemiya, Kotebe, Yeka ,Addis Ababa, Ethiopia
         </p>
       </div>
       <hr />
-      <div className="d-block  mb-4">
+      <div className="d-block address-item mb-4">
         <div className="d-flex">
         <FontAwesomeIcon className='my-auto me-3'  size="2x" color="darkgreen" icon={faClock} />
         {/* Location icon */}
@@ -44,7 +44,7 @@ const ContactAddress = () => {
         </p>
       </div>
       <hr />
-      <div className="d-block  mb-4">
+      <div className="d-block address-item mb-4">
         <div className="d-flex">
         <FontAwesomeIcon className='my-auto me-3'  size="2x" color="darkgreen" icon={faEnvelope} />
         {/* Location icon */}
