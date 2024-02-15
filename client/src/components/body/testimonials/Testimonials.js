@@ -22,7 +22,7 @@ import Angla from "./Angla.jpg"
     },
     {
         "picture":jhon,
-        "name":"Jhon Smith",
+        "name":"Dougula Bokuuma",
         "description":"Sewlesew worked with his team to complete the requirements faster than expected. The project was ready to spec in half the required amount of time, giving us a luxury to modify the project as needed.",
         "star":5
     }
