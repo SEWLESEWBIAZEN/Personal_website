@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import TestimonyPicture from "./TestimonyPicture";
 import TestimonyText from "./TestimonyText";
 import "./index.css";
@@ -7,12 +7,8 @@ import Next from "./Next";
 import tData from "./Testimonials";
 
 const Index = () => {
-  const [data, setData] = useState(tData);
+  const data = tData;
   const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    setData(tData);
-  }, []);
 
   return (
     <div className="d-block">
@@ -20,7 +16,7 @@ const Index = () => {
       <div className="d-xs-block d-sm-flex">
         <Previous index={index} setIndex={setIndex} data={data} />
         <div className="container container-testimonial d-xs-block d-sm-flex mb-4 p-4">
-          <TestimonyPicture image={data[index].picture} />
+          <TestimonyPicture image={data[index].picture} name={data[index].name} />
           <TestimonyText data={data[index]} />
         </div>
         <Next index={index} setIndex={setIndex} data={data} />

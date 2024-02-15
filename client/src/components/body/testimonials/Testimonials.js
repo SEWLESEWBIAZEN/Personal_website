@@ -1,27 +1,29 @@
 import React from 'react'
-import ericson from "https://images.app.goo.gl/9zajtnzangSJcXW87"
-import ericson2 from "https://images.app.goo.gl/GKZDiJRKbxfE2Cns8"
-import jhon from "./young.jpg"
+// import ericson from "https://images.app.goo.gl/9zajtnzangSJcXW87"
+// import ericson2 from "https://images.app.goo.gl/GKZDiJRKbxfE2Cns8"
+import jhon from "./jhon_smith.jpg"
+import Ericson from "./Ericson.jpg"
+import Angla from "./Angla.jpg"
  
  const tData=[
     {
-        "picture":{ericson},
-        "name":"Ericson Taw",
-        "description":"there is some text",
-        "star":3
+        "picture":Angla,
+        "name":"Angla Mawton",
+        "description":"Sewlesew is super skilled in all kinds of frontend coding. He has been a real asset throughout the project and we would gladly work with him again if new needs arise.",
+        "star":5
 
 
     },
     {
-        "picture":{ericson2},
+        "picture":Ericson,
         "name":"Ericson Taw",
-        "description":"there is some text",
+        "description":"Very good collaboration. I would highly recommend Sewlesew.",
         "star":4
     },
     {
-        "picture":{jhon},
+        "picture":jhon,
         "name":"Jhon Smith",
-        "description":"there is some text",
+        "description":"Sewlesew worked with his team to complete the requirements faster than expected. The project was ready to spec in half the required amount of time, giving us a luxury to modify the project as needed.",
         "star":5
     }
 ]
