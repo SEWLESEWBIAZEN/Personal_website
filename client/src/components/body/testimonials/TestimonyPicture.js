@@ -1,7 +1,7 @@
 import React from 'react'
-import PIMG from '../home/profile.jpg'
+//import PIMG from '../home/profile.jpg'
 
-const TestimonyPicture = () => {
+const TestimonyPicture = ({PIMG}) => {
   return (
     <div className='m-auto d-block'>
       <img className='pimg' src={PIMG} width={100} height={100} alt='Progile Image'></img>

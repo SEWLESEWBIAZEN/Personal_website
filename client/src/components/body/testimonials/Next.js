@@ -4,9 +4,17 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 import './index.css'
 
-const Next = () => {
+const Next = ({index,setIndex,data}) => {
+  function nextClickHandler(){
+    if(index===data.length-1){
+      setIndex(0);
+    }else{
+      setIndex(index+1);
+    }
+  }
+
   return (
-    <FontAwesomeIcon className="m-auto arrow-icon" icon={faArrowRight} onClick={()=>alert("Next icon clicked")} />
+    <FontAwesomeIcon className="m-auto arrow-icon" icon={faArrowRight} onClick={nextClickHandler} />
   )
 }
 

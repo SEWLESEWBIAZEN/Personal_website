@@ -2,10 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-const Stars = () => {
+const Stars = ({star}) => {
   return (
     <div className="mt-4">
-      {[...Array(5)].map(star => {
+      {[...Array(star)].map(star => {
         return (
           <>
             <label className="mx-1">              
@@ -14,7 +14,7 @@ const Stars = () => {
 
           </>
         );
-      })}(5 of 5)
+      })}({star} of 5)
     </div>
   );
 };

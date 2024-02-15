@@ -1,14 +1,11 @@
 import React from 'react'
 import Stars from './Stars'
 
-const TestimonyText = () => {
+const TestimonyText = ({data}) => {
   return (
     <div className='container d-block m-auto text-center'>
-        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
-        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
-        TestimonyText  TestimonyText  TestimonyText  TestimonyText  TestimonyText
-       
-        <Stars/>
+        {data.description}
+        <Stars star={data.star}/>
     </div>
   )
 }
