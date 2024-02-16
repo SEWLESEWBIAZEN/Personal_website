@@ -15,7 +15,10 @@ const Footer = () => {
      
       <hr className="text-white w-3"/>  
       <div className="mt-6 d-xs-block d-md-flex justify-content-evenly">
+      <div className="d-flex container link m-auto">
+      <h6>Follow Me on :</h6>
         <SocialMedia/>
+      </div>
         <Skills/>
       </div>   
     </div>

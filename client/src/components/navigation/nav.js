@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import {Link} from 'react-router-dom'
 import "./nav.css";
 
+
 /** font awesome imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import SocialMedia from "../footer/SocialMedia";
 
 const NavBar = () => {
 
@@ -28,7 +30,7 @@ const NavBar = () => {
             <FontAwesomeIcon icon={faBars} style={{color:"#f9ab00"}}/>
           </button>
           <div
-            className="collapse navbar-collapse m-auto justify-content-center "
+            className="collapse navbar-collapse m-auto justify-content-between "
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
@@ -38,9 +40,12 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./">
+                <Link className="nav-link" to="about-me">
                   About Me
                 </Link>
+              </li>
+              <li class="nav-item">
+               <Link className="nav-link" to="my-cv">Resume</Link>                
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="./">
@@ -59,16 +64,8 @@ const NavBar = () => {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
-                  Sign Up
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
-                  Sign In
-                </a>
-              </li>
+              <SocialMedia/>
+              
             </ul>
           </div>
         </div>
