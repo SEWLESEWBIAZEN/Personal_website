@@ -1,5 +1,6 @@
 import React from 'react'
 import pimg from '../body/testimonials/Ericson.jpg'
+import './cv.css'
 
 const Profile = () => {
   return (

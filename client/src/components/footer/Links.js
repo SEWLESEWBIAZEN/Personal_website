@@ -6,7 +6,7 @@ const Links = () => {
   return (
     <div className="d-block my-auto">
       <h5 className="text-warning links-label">Links</h5>      
-      <div className="d-xs-block d-sm-flex flex-wrap link mx-auto mt-0">
+      <div className="d-xs-block d-sm-flex flex-wrap link mx-auto px-2 mt-0">
       <Link to='./'>Home </Link>
       <Link to='./'>Portifolios</Link>
       <Link to='./'>About Me </Link>
