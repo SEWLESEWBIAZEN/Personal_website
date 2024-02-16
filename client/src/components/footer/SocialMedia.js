@@ -9,7 +9,7 @@ import {
   
   
 } from "@fortawesome/free-brands-svg-icons";
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+//import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const SocialMedia = () => {
   return (
@@ -28,7 +28,7 @@ const SocialMedia = () => {
         <FontAwesomeIcon className='github'  color="white" icon={faGithub} />
       </a>
       <a href="https://www.twitter.com" className="mx-2">
-        <FontAwesomeIcon className="twitter"  color="white" icon={faTimes} />
+        <FontAwesomeIcon className="twitter"  color="white" icon={faTwitter} />
       </a>
       
     </div>
