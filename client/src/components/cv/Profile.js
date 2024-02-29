@@ -1,5 +1,5 @@
 import React from 'react'
-import pimg from '../body/testimonials/Ericson.jpg'
+import pimg from '../../assets/images/Ericson.jpg'
 import './cv.css'
 
 const Profile = () => {

@@ -1,9 +1,9 @@
 import React from 'react'
 // import ericson from "https://images.app.goo.gl/9zajtnzangSJcXW87"
 // import ericson2 from "https://images.app.goo.gl/GKZDiJRKbxfE2Cns8"
-import jhon from "./jhon_smith.jpg"
-import Ericson from "./Ericson.jpg"
-import Angla from "./Angla.jpg"
+import jhon from "../../../assets/images/jhon_smith.jpg"
+import Ericson from "../../../assets/images/Ericson.jpg"
+import Angla from "../../../assets/images/Angla.jpg"
  
  const tData=[
     {

@@ -55,7 +55,7 @@ function btnClickHandler(index){
                         </p>
                     </div>
                     <button className='btn btn-success btn-outline-warning' onClick={()=>btnClickHandler(index)}>{btnText}</button>
-                    <a href='https://www.github.com/SEWLESEWBIAZEN' className='text-center mx-auto my-3'>Find on Github</a>
+                    <a href={card.githubLink} className='text-center mx-auto my-3'>Find on Github</a>
                 </div>
             )
             )}

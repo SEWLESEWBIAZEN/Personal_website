@@ -25,3 +25,9 @@ p{
    margin: auto 1px;
    width: 100%;
 }
+.basic-info, .background{
+    
+    border-radius: 3rem;
+    padding: 2rem;
+    background-color: rgba(245, 245, 245, 0.082);
+}
