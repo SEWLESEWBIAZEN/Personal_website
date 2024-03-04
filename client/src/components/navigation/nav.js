@@ -1,7 +1,6 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
-
 
 /** font awesome imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +8,15 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../footer/SocialMedia";
 
 const NavBar = () => {
+
+  const location = useLocation();
+  const { pathname } = location;
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section.scrollIntoView({ behavior: "smooth" });
+    
+  };
 
   //const [active,setActive]= useState("home");
   return (
@@ -27,7 +35,7 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <FontAwesomeIcon icon={faBars} style={{color:"#f9ab00"}}/>
+            <FontAwesomeIcon icon={faBars} style={{ color: "#f9ab00" }} />
           </button>
           <div
             className="collapse navbar-collapse m-auto justify-content-between "
@@ -45,15 +53,25 @@ const NavBar = () => {
                 </Link>
               </li>
               <li class="nav-item">
-               <Link className="nav-link" to="my-cv">Resume</Link>                
+                <Link className="nav-link" to="my-cv">
+                  Resume
+                </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./">
+                <Link
+                  className="nav-link"
+                  to="./"
+                  onClick={(pathname==='/')?() => scrollToSection("service"):""}
+                >
                   My Portifolios
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="./">
+                <Link
+                  className="nav-link"
+                  to="./"
+                  onClick={(pathname==='/')?() => scrollToSection("testimonials"):""}
+                >
                   My Testimonials
                 </Link>
               </li>
@@ -64,8 +82,7 @@ const NavBar = () => {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-              <SocialMedia/>
-              
+              <SocialMedia />
             </ul>
           </div>
         </div>

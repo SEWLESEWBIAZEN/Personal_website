@@ -11,6 +11,7 @@ const Index = () => {
   const [index, setIndex] = useState(0);
 
   return (
+    <section id="testimonials">
     <div className="d-block">
       <h3 className="text-center"> TESTIMONIALS</h3>
       <div className="d-xs-block d-sm-flex">
@@ -22,6 +23,7 @@ const Index = () => {
         <Next index={index} setIndex={setIndex} data={data} />
       </div>
     </div>
+    </section>
   );
 };
 

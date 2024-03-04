@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <br/><br/>
         <div className="d-xs-block d-md-flex justify-content-between ">
-          < img className=" me-4 profile-picture my-auto" width={300} height={300} src={pimg} />
+          <img className=" me-4 profile-picture my-auto" width={300} height={300} src={pimg} />
           <div className="d-block">
             <h3>Front-End Developer/ React Developer</h3>
             <p className="text-left">
