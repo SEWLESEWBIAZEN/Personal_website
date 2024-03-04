@@ -1,16 +1,21 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "./nav.css";
+
 
 /** font awesome imports */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import SocialMedia from "../footer/SocialMedia";
 
 const NavBar = () => {
+
+  //const [active,setActive]= useState("home");
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-success bg-body-primary fixed-top">
         <div class="container-fluid container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             SB
           </a>
           <button
@@ -25,47 +30,42 @@ const NavBar = () => {
             <FontAwesomeIcon icon={faBars} style={{color:"#f9ab00"}}/>
           </button>
           <div
-            className="collapse navbar-collapse m-auto "
+            className="collapse navbar-collapse m-auto justify-content-between "
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <Link className="nav-link" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="about-me">
                   About Me
-                </a>
+                </Link>
+              </li>
+              <li class="nav-item">
+               <Link className="nav-link" to="my-cv">Resume</Link>                
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="./">
                   My Portifolios
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="./">
                   My Testimonials
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" aria-disabled="true">
+                <Link className="nav-link" to="contact-me" aria-disabled="true">
                   Contact Me
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
-                  Sign Up
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
-                  Sign In
-                </a>
-              </li>
+              <SocialMedia/>
+              
             </ul>
           </div>
         </div>

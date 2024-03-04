@@ -1,0 +1,14 @@
+.cv-container{    
+    min-height: 50rem;
+    margin: 4rem auto auto;
+}
+.main{
+    min-width: 18rem;
+}
+.profile{
+    min-width: 15rem;
+}
+.profile-image{
+    border-radius: 75px;
+    margin:1rem;
+}

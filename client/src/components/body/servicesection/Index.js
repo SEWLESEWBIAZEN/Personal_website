@@ -6,7 +6,8 @@ const Index = () => {
 
     
   return (
-    <div>
+    <div className='d-block'>
+      <h3 className='text-center'>PORTIFOLIOS</h3>
         <Card/>
     </div>
   )
