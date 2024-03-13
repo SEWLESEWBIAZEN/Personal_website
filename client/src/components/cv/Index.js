@@ -5,8 +5,7 @@ import Profile from './Profile'
 
 const MyCV = () => {
   return (
-    <div className='cv-container container bg-white d-flex '>
-        <Profile/>
+    <div className='cv-container container d-flex '>       
         <Main/>
         </div>
   )

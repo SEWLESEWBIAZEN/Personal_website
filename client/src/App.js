@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Body/>} />
           <Route path="/contact-me" element={<ContactMe/>} />
-          <Route path="/my-cv" element={<MyCV/>} />
+          <Route path="/my-cv" element={<MyCV/>}/>
           <Route path="/about-me" element={<About/>} />
         </Routes>
         <hr />

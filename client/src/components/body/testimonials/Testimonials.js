@@ -1,6 +1,3 @@
-import React from 'react'
-// import ericson from "https://images.app.goo.gl/9zajtnzangSJcXW87"
-// import ericson2 from "https://images.app.goo.gl/GKZDiJRKbxfE2Cns8"
 import jhon from "../../../assets/images/jhon_smith.jpg"
 import Ericson from "../../../assets/images/Ericson.jpg"
 import Angla from "../../../assets/images/Angla.jpg"
@@ -11,8 +8,6 @@ import Angla from "../../../assets/images/Angla.jpg"
         "name":"Angla Mawton",
         "description":"Sewlesew is super skilled in all kinds of frontend coding. He has been a real asset throughout the project and we would gladly work with him again if new needs arise.",
         "star":5
-
-
     },
     {
         "picture":Ericson,
