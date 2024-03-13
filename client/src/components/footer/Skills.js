@@ -17,8 +17,7 @@ const Skills = () => {
         <a href='https://github.com/SEWLESEWBIAZEN'>Git</a>
         <a href='https://github.com/SEWLESEWBIAZEN/Employee-Management-CRUD'>Postman</a>
         <a href='https://github.com/SEWLESEWBIAZEN/'>MongoDB</a>
-        <a href='https://github.com/SEWLESEWBIAZEN/Employee-Management-CRUD'>MS SQL Server</a>
-        
+        <a href='https://github.com/SEWLESEWBIAZEN/Employee-Management-CRUD' >MS SQL Server</a>       
 
     </div>
   )

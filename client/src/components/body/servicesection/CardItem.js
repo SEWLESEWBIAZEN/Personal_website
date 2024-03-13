@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
 import { ReactTyped } from "react-typed";
-// import { Link } from "react-router-dom";
 
 const CardItem = ({
   cards,
@@ -21,7 +20,7 @@ const CardItem = ({
 
   function btnClickHandler(e,index) {
     setShow(!show);
-    show &&e ? setBtnText("Learn More...") : setBtnText("Learn Less...");   
+    show && e ? setBtnText("Learn More...") : setBtnText("Learn Less...");   
 
     if (index === 0) {
       setShowReact(!showReact);
@@ -39,6 +38,20 @@ const CardItem = ({
       setShowMaterialUI(false);
     }
   }
+
+  // const buttons=document.querySelectorAll('button')
+  //  buttons.forEach(button=>{
+  //   button.addEventListener('click',(event)=>{
+  //     if(this.btnText==="Learn More..."){
+  //       this.setBtnText="Learn Less..."
+  //     }
+  //     else if(btnText==="Learn Less..."){
+  //       setBtnText("Learn More...")
+  //     }
+      
+
+  //   })
+  //  })
 
   return (
     <div className="d-xs-block d-md-flex justify-content-center mx-auto mb-3 card-hover">

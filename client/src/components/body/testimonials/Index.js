@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <section id="testimonials">
     <div className="d-block">
-      <h3 className="text-center"> TESTIMONIALS</h3>
+      <h3 className="text-center">TESTIMONIALS</h3>
       <div className="d-xs-block d-sm-flex">
         <Previous index={index} setIndex={setIndex} data={data} />
         <div className="container container-testimonial d-xs-block d-sm-flex mb-4 p-4">
